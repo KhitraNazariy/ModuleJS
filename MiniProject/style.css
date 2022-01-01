@@ -1,0 +1,97 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 50px;
+    padding: 50px;
+}
+
+.user_card {
+    width: 450px;
+    padding: 10px 30px 15px 30px;
+    box-sizing: border-box;
+    background-color: #fdfcfc;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 6px 12px -2px, rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+}
+
+.user_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_user, .btn-user-post, .post-btn, .comment-btn {
+    margin-top: 20px;
+    border: none;
+    color: white;
+    background-color: #494444;
+    width: 150px;
+    height: 35px;
+    /*margin-left: 240px;*/
+    border-radius: 15px;
+    font-weight: bolder;
+    transition: .7s;
+    cursor: pointer;
+}
+
+.btn_user:hover, .btn-user-post:hover, .post-btn:hover, .comment-btn:hover {
+    border: 2px solid #494444;
+    color: #494444;
+    background-color: white;
+}
+
+.comment-btn {
+    width: 250px;
+}
+
+.user-title, .post-div-title {
+    margin: 30px 0;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #494444;
+    text-align: center;
+}
+
+.wrap-user, .post-div-info {
+    margin: 0 auto;
+    width: 900px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 6px 12px -2px, rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+    color: #494444;
+    font-size: 20px;
+}
+
+.post-wrap {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 6px 12px -2px, rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.post-title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.post-div {
+    width: 550px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid #494444;
+}
